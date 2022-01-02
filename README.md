@@ -7,13 +7,16 @@ This is a Tensorflow (wrapped with Keras) based implementation using UNET as the
 ## Dataset
 * The dataset can be obtained from Landsat 8 satellite images using Earth Explorer API.
 * The satellite images consist of 11 bands including Red, Blue, Green, Near Infrared (NIR), and Shortwave Infrared (SWIR). 
-* Apart from the reflectance measurements obtained from these bands, standard indices including Normalized Difference Vegetation Index (NDVI), Normalized Difference Moisture Index (NDMI), Normalized Difference Water Index (NDWI), etc. are also used as the features to train the models. 
 * The folder structure is shown in 'data' folder.
 
 ## Implementation
 * Deep Unet architecture is employed to perform segmentation.
 * The ground truth for the training dataset has been created by manually annotating these images for five classes: vegetation (dark green), ground (light green), roads and parking (gray), buildings (black) and water (blue).
 * Image augmentation is used for input images to significantly increase train data.
+* Apart from the reflectance measurements obtained from the 11 bands, standard indices including Normalized Difference Water Index (NDWI), Soil-Adjusted Vegetation Index (SAVI) and Enhanced Vegetation Index (EVI) are also used as the features to train the models. 
+
+![geo2](https://user-images.githubusercontent.com/77407100/147877419-ae4f2fe1-e7d1-4239-bec6-1ba9a40401fb.jpg)
+
 
 ## Software and Packages 
 * Anaconda with inbuilt Python 3.6 (This will automatically set required environment path variables and will also contain all required libraries)
