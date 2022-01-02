@@ -2,7 +2,8 @@
 An end-to-end solution for geospatial image analytics is developed to segment land use parameters like buildings, road networks, vegetation cover, water bodies, etc. The central ideology is to derive insights on economic growth, urbanisation, and changes in natural resources using satellite images and computer vision. 
 This is a Tensorflow (wrapped with Keras) based implementation using UNET as the deep learning architecture to perform satellite image segmentation.
 
-![Screen Shot 2022-01-02 at 5 48 59 PM](https://user-images.githubusercontent.com/77407100/147876327-5933d5be-e888-4859-982a-84a012422e88.png)
+![Screen Shot 2022-01-02 at 5 48 59 PM copy](https://user-images.githubusercontent.com/77407100/147877554-d0a36fb0-307d-4e33-8d46-b35b3ab86c41.png)
+
 
 ## Dataset
 * The dataset can be obtained from Landsat 8 satellite images using Earth Explorer API.
@@ -33,5 +34,7 @@ This is a Tensorflow (wrapped with Keras) based implementation using UNET as the
 Check the folder "post_deployment" for api testing.
 
 ## Prediction Example
+
+![prediction1](https://user-images.githubusercontent.com/77407100/147877880-5e1682ad-57ac-476f-912c-8a7ab43c1d58.jpg)
 
 
