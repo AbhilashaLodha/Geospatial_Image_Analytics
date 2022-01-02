@@ -23,6 +23,12 @@ This is a Tensorflow (wrapped with Keras) based implementation using UNET as the
 * Environment used is tensorflow_p36. So, activate the environment using the following command before executing any python file: source activate tensorflow_p36
 * Download the complete folder named ‘Satellite_WB/src’ with core and utils folders inside it.
 
+
+## UNET Model Architecture 
+
+![geo4](https://user-images.githubusercontent.com/77407100/147877493-a54a7ae3-d049-4489-9fc6-ece76329be8d.png)
+
+
 ## Post Deployment Checklist (Test through Postman) for API End Points
 Check the folder "post_deployment" for api testing.
 
